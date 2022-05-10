@@ -58,3 +58,90 @@ button {
 button:hover {
     background-color: rgba(24, 183, 255, 0.7)
 }
+
+/********************************************* Nav Header *****/
+/* Setting header with nav elements */
+header {
+    display: block;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: aliceblue;
+    z-index: 999;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+#logo {
+    float: left;
+    font-size: 2.0rem;
+    padding-left: 5rem;
+    text-decoration: none;
+}
+
+nav {
+    font-size: 1.0rem;
+    letter-spacing: 4px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+}
+
+nav li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+}
+
+.nav-cta {
+    padding: 0.70em 1em;
+    background-color: #18b7ff;
+    border: none;
+    border-radius: 1.3em;
+    cursor: pointer;
+}
+
+.nav-cta:hover {
+    background-color: rgba(24, 183, 255, 0.7);
+    border-bottom: none;
+}
+
+nav,
+#logo {
+    line-height: 75px;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #F20505;
+}
+
+.active {
+    border-bottom: 1px solid #23247A;
+}
+
+.nav-cta {
+    padding: 0.70em 1em;
+    background-color: #18b7ff;
+    border: none;
+    border-radius: 1.3em;
+    cursor: pointer;
+}
+
+.nav-cta:hover {
+    background-color: rgba(24, 183, 255, 0.5);
+    border-bottom: none;
+}
+
+/* Hides hamburger menu for screens >1200px */
+.nav-toggle-label,
+.nav-toggle {
+    display: none;
+}
