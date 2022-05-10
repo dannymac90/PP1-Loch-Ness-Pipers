@@ -473,3 +473,10 @@ img {
     padding-top: 40px;
     /* background-color: red; */
 }
+
+/* Prices Responsive Design Mobile / tablet displays */
+@media screen and (min-width: 768px) {
+    .prices-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
