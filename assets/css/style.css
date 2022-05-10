@@ -538,3 +538,42 @@ img {
     color: #23247A;
     text-transform: none;
 }
+
+/***************** Events Responsive Design  */
+@media screen and (max-width: 1900px) {
+    #events-header {
+        padding-top: 40px;
+        padding-left: 150px;
+        padding-bottom: 20px;
+    }
+
+
+    #events-inner-container {
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 40px;
+        justify-content: center;
+    }
+
+    .events-container-1 {
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        max-width: 80%;
+        background-color: rgb(36, 37, 123, 0.6);
+        box-sizing: border-box;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+
+    #events-inner-container {
+        display: flex;
+        gap: 50px;
+    }
+
+    .events-cta {
+        padding-top: 5px;
+    }
+}
