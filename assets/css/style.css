@@ -145,3 +145,96 @@ nav a:hover {
 .nav-toggle {
     display: none;
 }
+
+/* NAV HEADER Responsive Design tabelt / mobile */
+@media screen and (max-width: 1200px) {
+    header {
+        height: 5rem;
+    }
+
+    /* Logo moves from left side to right */
+    #logo {
+        margin: 0 auto;
+        float: right;
+        padding-right: 2em;
+        font-size: 1.5rem;
+        align-items: center;
+    }
+
+    /* Nav bar position from right to left */
+    nav {
+        position: absolute;
+        text-align: left;
+        top: 100%;
+        left: 0;
+        background-color: aliceblue;
+        width: 100%;
+        display: none;
+    }
+
+    /* Nav bar column instead of row */
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-bottom: 1em;
+        margin-left: 1em;
+    }
+
+    /* Font size decrease */
+    nav a {
+        font-size: 1.2rem;
+    }
+
+    /* Query to check if selected */
+    .nav-toggle:checked~nav {
+        display: block;
+        width: 12.5rem;
+        text-align: center;
+    }
+
+    /* Hide check box */
+    .nav-toggle {
+        display: none;
+    }
+
+    /* Replacing checkbox with clickable lines */
+    .nav-toggle-label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 1em;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        display: block;
+        background: rgb(17, 17, 17);
+        height: 2px;
+        width: 2em;
+        border-radius: 2px;
+        position: relative;
+    }
+
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        content: '';
+        position: absolute;
+    }
+
+    .nav-toggle-label span::before {
+        bottom: 7px;
+    }
+
+    .nav-toggle-label span::after {
+        top: 7px;
+    }
+}
