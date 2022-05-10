@@ -1,0 +1,60 @@
+/* Setting about-page globals */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Setting typography for headings & body*/
+body {
+    font-family: montserrat, sans-serif;
+    font-weight: 300;
+}
+
+
+h1 {
+    text-transform: capitalize;
+    color: #23247A;
+}
+
+h2 {
+    font-family: source-sans-pro, sans-serif;
+    color: #23247A;
+    letter-spacing: 3px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: source-sans-pro, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-family: source-sans-pro, sans-serif;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+li {
+    list-style-position: inside;
+}
+
+button {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0.70em 1em;
+    background-color: #18b7ff;
+    border: none;
+    border-radius: 1.3em;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: auto;
+}
+
+button:hover {
+    background-color: rgba(24, 183, 255, 0.7)
+}
