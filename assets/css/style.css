@@ -384,3 +384,18 @@ img {
     justify-content: center;
     padding-bottom: 30px;
 }
+
+/******** About Responsive Design  Mobile / tablet displays */
+@media screen and (min-width: 768px) {
+    .about-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ABOUT Large displays */
+@media screen and (min-width: 1200px) {
+    .about-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
