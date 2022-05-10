@@ -480,3 +480,61 @@ img {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+/********************************************* PAGE - EVENTS *****/
+
+/* Background image */
+#events-outer-container {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../images/events1.jpg);
+    width: 100%;
+    height: 93vh;
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+}
+
+#events-inner-container {
+    justify-content: center;
+    width: 100vw;
+}
+
+#events-inner-container {
+    display: flex;
+    gap: 50px;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+#events-title {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.events-container-1 {
+    flex: 1;
+    max-width: 25%;
+    background-color: rgb(36, 37, 123, 0.7);
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+/* CTA Buttons */
+.events-cta {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding-top: 60px;
+    /* background-color: red; */
+}
+
+.events-cta>h3 {
+    color: #23247A;
+    text-transform: none;
+}
