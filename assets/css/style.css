@@ -758,3 +758,73 @@ img {
 .contact-input-box ::placeholder {
     color: #999;
 }
+
+/************************************************* info */
+.info {
+    background: rgb(36, 37, 123, 0.7);
+}
+
+.info>h3 {
+    color: #fff;
+}
+
+.info .contact-info-box>div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info .contact-info-box>div span {
+    min-width: 40px;
+    height: 40px;
+    color: #fff;
+    background: #18b7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.info .contact-info-box>div p {
+    color: #fff;
+    font-size: 1.0rem;
+}
+
+.info .contact-info-box>div a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.0rem;
+}
+
+.contact-socials {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-socials>li {
+    list-style: none;
+    margin-right: 15px;
+
+}
+
+.contact-socials>li a {
+    color: #fff;
+    font-size: 2em;
+    color: #ccc;
+}
+
+.contact-socials>li a:hover {
+    color: #fff
+}
+
+.map {
+    padding: 0;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
