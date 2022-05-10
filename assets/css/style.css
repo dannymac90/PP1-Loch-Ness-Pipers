@@ -828,3 +828,47 @@ img {
     width: 100%;
     height: 100%;
 }
+
+/******** Contact Responsive Design */
+@media (max-width: 1020px) {
+    .contact-outer-container {
+        height: 100%;
+        /* width: 100% */
+        background-size: cover;
+    }
+
+    .contact-us {
+        padding: 20px;
+    }
+
+    .contact-triad-container {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "form", "info", "map";
+    }
+
+    .map {
+        min-height: 300px;
+    }
+
+    .contact-form-box .contact-form-group1 {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .contact-input-box {
+        width: 100%;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+
+    .map {
+        min-height: 300px;
+        padding: 30px;
+    }
+}
