@@ -697,3 +697,64 @@ img {
     font-size: 1.3rem;
     margin-bottom: 10px;
 }
+
+/************************************* Form */
+.contact-form-box {
+    position: relative;
+    width: 100%;
+}
+
+.contact-form-group1 {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.contact-form-box .contact-form-group2 .contact-input-box {
+    width: 100%;
+}
+
+.contact-input-box>label {
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.contact-input-box>input {
+    padding: 10px;
+    font-size: 1.0rem;
+    outline: none;
+    border: 1px solid #333;
+}
+
+.contact-input-box>textarea {
+    padding: 10px;
+    font-size: 1.0rem;
+    outline: none;
+    border: 1px solid #333;
+    resize: none;
+    min-height: 220px;
+    margin-bottom: 10px;
+}
+
+.contact-input-box input[type="submit"] {
+    background: #18b7ff;
+    color: #fff;
+    border: none;
+    font-size: 1.0rem;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 14px 15px;
+}
+
+.contact-input-box ::placeholder {
+    color: #999;
+}
