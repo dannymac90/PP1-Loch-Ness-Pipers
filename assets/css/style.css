@@ -399,3 +399,77 @@ img {
     }
 
 }
+
+/********************************************* PAGE - PRICES *****/
+
+/* Setting heading padding from page header */
+.prices {
+    padding-top: 110px;
+}
+
+/* Setting about-us container inline with photos */
+#prices-container {
+    width: 80vw;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    /* font-size: 1.5em; */
+    font-weight: 500;
+    text-align: center;
+}
+
+#prices-container>p {
+    padding-top: 10px;
+    text-align: left;
+}
+
+/* Grid padding from edges & gaps from columns */
+.prices-grid {
+    display: grid;
+    grid-gap: 26px;
+    width: 80vw;
+    margin: 0 auto;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.prices-column {
+    padding-bottom: 50px;
+    background-color: rgb(35, 36, 122, 0.75);
+}
+
+.prices-column>h3,
+.prices-column>h4,
+.prices-column>p {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.prices-column>ul {
+    padding-left: 20px;
+    line-height: 25px;
+}
+
+
+.prices-column>p {
+    text-align: left;
+}
+
+
+/* Setting max width within grid */
+.prices-grid>img {
+    display: block;
+    max-width: 100%;
+}
+
+/* CTA Buttons */
+.prices-cta {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    margin-top: auto;
+    height: 80px;
+    padding-top: 40px;
+    /* background-color: red; */
+}
