@@ -371,6 +371,10 @@ p {
     text-align: center;
 }
 
+.about-grid h3{
+color: #23247A;
+}
+
 
 .about-column {
     padding-bottom: 1.875rem;
