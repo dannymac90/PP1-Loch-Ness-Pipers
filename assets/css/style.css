@@ -92,7 +92,7 @@ nav ul {
 nav li {
     float: right;
     list-style-type: none;
-    margin-right: 1.875rem;
+    margin-right: 30px;
 }
 
 nav a {
@@ -116,7 +116,7 @@ nav a {
 
 nav,
 #logo {
-    line-height: 4.68rem ;
+    line-height: 75px;
 }
 
 nav a:hover {
@@ -278,7 +278,7 @@ nav a:hover {
 
 #cover-text-container {
     letter-spacing: 4px;
-    line-height: 2.75rem;
+    line-height: 44px;
     max-width: 46%;
     min-width: 14.375rem;
     top: 9.375rem;
@@ -326,7 +326,7 @@ footer>p {
 
 /* Setting heading padding from page header */
 .about-us {
-    padding-top: 6.875rem;
+    padding-top: 110px;
 }
 
 /* Setting about us container inline with photos */
@@ -334,7 +334,7 @@ footer>p {
     width: 80vw;
     margin: 0 auto;
     background-color: rgb(35, 36, 122, 0.75);
-    padding: 1.25rem;
+    padding: 20px;
 }
 
 .about-container>p {
@@ -370,7 +370,7 @@ p {
 
 
 .about-column {
-    padding-bottom: 1.875rem;
+    padding-bottom: 30px;
 }
 
 /* Setting max width within grid */
@@ -382,18 +382,18 @@ img {
 .about-cta {
     display: flex;
     justify-content: center;
-    padding-bottom: 1.875rem;
+    padding-bottom: 30px;
 }
 
 /******** About Responsive Design  Mobile / tablet displays */
-@media screen and (min-width: 48rem) {
+@media screen and (min-width: 768px) {
     .about-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 /* ABOUT Large displays */
-@media screen and (min-width: 75rem) {
+@media screen and (min-width: 1200px) {
     .about-grid {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -404,7 +404,7 @@ img {
 
 /* Setting heading padding from page header */
 .prices {
-    padding-top: 6.875rem;
+    padding-top: 110px;
 }
 
 /* Setting about-us container inline with photos */
@@ -433,7 +433,7 @@ img {
 }
 
 .prices-column {
-    padding-bottom: 3.188rem;
+    padding-bottom: 50px;
     background-color: rgb(35, 36, 122, 0.75);
 }
 
@@ -447,8 +447,8 @@ img {
 }
 
 .prices-column>ul {
-    padding-left: 1.25rem;
-    line-height: 1.563rem;
+    padding-left: 20px;
+    line-height: 25px;
 }
 
 
@@ -469,13 +469,13 @@ img {
     align-self: flex-end;
     justify-content: center;
     margin-top: auto;
-    height: 5rem;
-    padding-top: 2.5rem;
+    height: 80px;
+    padding-top: 40px;
     /* background-color: red; */
 }
 
 /* Prices Responsive Design Mobile / tablet displays */
-@media screen and (min-width: 48rem) {
+@media screen and (min-width: 768px) {
     .prices-grid {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -490,7 +490,7 @@ img {
     height: 93vh;
     background-size: cover;
     background-position: center;
-    padding-top: 5rem;
+    padding-top: 80px;
 }
 
 #events-inner-container {
@@ -500,14 +500,14 @@ img {
 
 #events-inner-container {
     display: flex;
-    gap: 3.125rem;
+    gap: 50px;
     width: 80vw;
     margin: 0 auto;
 }
 
 #events-title {
-    padding-top: 2.5rem;
-    padding-bottom: 1.25rem;
+    padding-top: 40px;
+    padding-bottom: 20px;
     text-align: center;
     font-weight: 500;
 }
@@ -520,7 +520,7 @@ img {
     justify-content: center;
     text-align: center;
     color: white;
-    padding: 1.875rem;
+    padding: 30px;
 }
 
 /* CTA Buttons */
@@ -528,9 +528,9 @@ img {
     display: flex;
     width: 100%;
     flex-direction: column;
-    gap: 1.25rem;
+    gap: 20px;
     align-items: center;
-    padding-top: 3.75rem;
+    padding-top: 60px;
     /* background-color: red; */
 }
 
