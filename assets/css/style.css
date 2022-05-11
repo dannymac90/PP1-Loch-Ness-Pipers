@@ -542,24 +542,21 @@ img {
 /***************** Events Responsive Design  */
 @media screen and (max-width: 1900px) {
     #events-header {
-        padding-top: 40px;
-        padding-left: 150px;
-        padding-bottom: 20px;
+        padding-top: 2.5rem;
+        padding-left: 9.375rem;
+        padding-bottom: 1.25rem;
     }
 
 
     #events-inner-container {
         width: 80%;
         margin: 0 auto;
-        padding-bottom: 40px;
+        padding-bottom: 2.5rem;
         justify-content: center;
     }
 
     .events-container-1 {
-        padding-top: 20px;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-bottom: 20px;
+        padding:1.25rem 3.125rem;
         max-width: 80%;
         background-color: rgb(36, 37, 123, 0.6);
         box-sizing: border-box;
@@ -570,7 +567,7 @@ img {
 
     #events-inner-container {
         display: flex;
-        gap: 50px;
+        gap: 3.125rem;
     }
 
     .events-cta {
@@ -580,9 +577,7 @@ img {
 
 @media screen and (max-width: 1400px) {
     #events-header {
-        padding-top: 40px;
-        padding-left: 150px;
-        padding-bottom: 20px;
+        padding: 2.5rem 0 1.25rem 9.375rem;
     }
 
     #events-outer-container {
@@ -593,15 +588,12 @@ img {
     #events-inner-container {
         width: 80%;
         margin: 0 auto;
-        padding-bottom: 50px;
+        padding-bottom: 3.125rem;
         justify-content: center;
     }
 
     .events-container-1 {
-        padding-top: 20px;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-bottom: 20px;
+        padding: 1.25rem 0.313rem ;
         max-width: 100%;
         background-color: rgb(36, 37, 123, 0.6);
         box-sizing: border-box;
@@ -613,11 +605,11 @@ img {
     #events-inner-container {
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        gap: 3.125rem;
     }
 
     .events-cta {
-        padding-top: 5px;
+        padding-top: 0.313rem;
         /* background-color: red; */
     }
 }
