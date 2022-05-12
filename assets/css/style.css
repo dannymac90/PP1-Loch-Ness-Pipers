@@ -683,7 +683,7 @@ img {
     position: relative;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: fr 4fr;
+    grid-template-rows: 5fr 4fr;
     grid-template-areas:
         "form info"
         "form map";
