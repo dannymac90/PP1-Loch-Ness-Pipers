@@ -846,7 +846,7 @@ img {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
-        grid-template-areas: "form", "info", "map";
+        grid-template-areas: "form" "info" "map";
     }
 
     .map {
