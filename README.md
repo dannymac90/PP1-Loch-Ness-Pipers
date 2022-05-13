@@ -9,7 +9,7 @@ A live demo of the website can be found [here](https://dannymac90.github.io/PP1-
 
 ![Photo of landing page on multiple devices](assets/images/Responsive%20Showcase.png)
 
-# User Experience (UX)
+## User Experience (UX)
 
 ### First-time visitors
  - As a first-time visitor, I want to be able to easily and
@@ -36,10 +36,10 @@ A live demo of the website can be found [here](https://dannymac90.github.io/PP1-
  
  - As a potential customer, I want to easily be able to contact the business to discuss my requirements
 
-# Strategy
+## Strategy
 My goal in the design was to make it as easy as possible to access information on the website while striving for a simple and user-friendly design.
 
-# Features
+## Features
 ### Existing Features
 **Navigation Bar**
  - The navigation bar remains on the top of every page throughout the site. This ensures the user can easily navigate to any page they desire which in turn creates a good user experience
@@ -81,7 +81,7 @@ My goal in the design was to make it as easy as possible to access information o
  - The page confirms successful submission and informs them the business aims to respond to all enquiries within 24 hours. 
  - The page then automatically redirects the user to the landing page after 10 seconds
 
-## Features to implement in the future
+### Features to implement in the future
 **Testimony Page**
  - Once the business has started trading and undertaken events, we will add a testimony page to showcase the positive customer experience and feedback
  
@@ -91,34 +91,34 @@ My goal in the design was to make it as easy as possible to access information o
  **Media Page**
  - Once the business has started trading and undertaken events, a media page will be created hosting both photos and videos of pipers performing and showcase their skills and abilities.
 
-# Technologies
+## Technologies
  - HTML
  - CSS
  - Google Fonts
  
-# Testing
-## HTML Validator
+## Testing
+### HTML Validator
 
 Testing was conducted through W3C Nu HTML Checker
 **The Results:** 
 There was no errors or warnings found
 ![Photo of HTML validation result](assets/images/html-test.png)
 
-## CSS Validator
+### CSS Validator
 
 Testing was conducted through W3C CSS Validator
 **The Results:** 
 There was no errors found
 ![Photo of CSS validation result](assets/images/css-test.png)
 
-## Lighthouse Report
+### Lighthouse Report
 
  - To test the Accessibility of the website, a Lighthouse test was conducted through Chrome DevTools
  - This confirmed an Accessibility score of 100%
  - Future site development will address the 99% performance score 
  ![Photo of lighthouse report](assets/images/lighthouse-report.png)
  
-## Browser Compatibility Test
+### Browser Compatibility Test
  Compatibility tests have been conducted as performed as expected on the following browsers:
  
  - Google Chrome
@@ -126,14 +126,14 @@ There was no errors found
  - Microsoft Edge
  - Mozilla Firefox
  
- ## Responsiveness Test
+ ### Responsiveness Test
 Responsiveness tests have been conducted as performed as expected on the following screen sizes using Chrome DevTools:
  - iPhone SE 375 x 667px
  - ipad 768 x 1024px
  - Macbook 2560 x 1600px
  - Lenovo Windows Laptop 1920 x 1080
 
- ## General Testing
+ ### General Testing
  |Test Label| Test Action| Expected Outcome| Test outcome|
  |:---------|:-----------|:----------------|:------------|
  |Home Page | Click on home nav link| Home page loads| Pass|
@@ -141,10 +141,10 @@ Responsiveness tests have been conducted as performed as expected on the followi
  |Contact email| Enter text instead of email address| Warning popup saying to enter valid email| Pass
  |Thank you page| Submit filled form| Thank you page loads| Pass
 
- ## Bugs
+ ### Bugs
  * No known bugs
 
- # Credits
+ ## Credits
 **Content**
 The text for the website was created by Danny MacLeod and proof-read/edited by Rebecca Haughey.
 
@@ -161,5 +161,5 @@ Assistance with responsiveness and sorting bugs with my responsiveness was helpe
  - My mentor, Brian Macharia, for his expertise, help and professionalism
  - Kevin Powell for his helpful and insightful videos on YouTube
 
-# Disclaimer
+## Disclaimer
 The content of this website is for educational purposes only.
