@@ -59,28 +59,28 @@ This is where existing will go
  - Google Fonts
  
 # Testing
-## HTML Validator
+### HTML Validator
 
 Testing was conducted through W3C Nu HTML Checker
 **The Results:** 
 There was no errors or warnings found
 ((((photo)))
 
-## CSS Validator
+### CSS Validator
 
 Testing was conducted through W3C CSS Validator
 **The Results:** 
 There was no errors found
 ((((photo)))
 
-## Lighthouse Report
+### Lighthouse Report
 
  - To test the Accessibility of the website, a Lighthouse test was conducted through Chrome DevTools
  - This confirmed an Accessibility score of 100%
  - Future site development will address the 99% performance score 
  (((((photo))))
  
-## Browser Compatibility Test
+### Browser Compatibility Test
  Compatibility tests have been conducted as performed as expected on the following browsers:
  
  - Google Chrome
@@ -88,7 +88,7 @@ There was no errors found
  - Microsoft Edge
  - Mozilla Firefox
  
- ## Responsiveness Test
+ ### Responsiveness Test
 Responsiveness tests have been conducted as performed as expected on the following screen sizes using Chrome DevTools:
  - iPhone SE 375 x 667px
  - ipad 768 x 1024px
