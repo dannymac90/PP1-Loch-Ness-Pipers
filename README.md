@@ -1,4 +1,4 @@
-The Loch Ness Pipers
+# The Loch Ness Pipers
 
 Welcome to my first Code Institute project, The Loch Ness Pipers. The website has been created in order to create an online presence and awareness for a fictional event bagpiper business based in the Highlands of Scotland. With an array of different pipers, the website aims to promote and showcase the variety of pipers and services offered with a primary goal of leading potential customers to make their first initial contact with the business through the contact page.
 
@@ -40,7 +40,7 @@ A live demo of the website can be found [here](https://dannymac90.github.io/PP1-
 My goal in the design was to make it as easy as possible to access information on the website while striving for a simple and user-friendly design.
 
 # Features
-### Existing Features
+## Existing Features
 **Navigation Bar**
  - The navigation bar remains on the top of every page throughout the site. This ensures the user can easily navigate to any page they desire which in turn creates a good user experience
  - Through CSS, the menu will underline the current page using a blue bottom border. This lets the user easily identify which page they are currently on, making the website easier to navigate and more enjoyable.
@@ -81,7 +81,7 @@ My goal in the design was to make it as easy as possible to access information o
  - The page confirms successful submission and informs them the business aims to respond to all enquiries within 24 hours. 
  - The page then automatically redirects the user to the landing page after 10 seconds
 
-### Features to implement in the future
+## Features to implement in the future
 **Testimony Page**
  - Once the business has started trading and undertaken events, we will add a testimony page to showcase the positive customer experience and feedback
  
@@ -150,5 +150,5 @@ Assistance with responsiveness and sorting bugs with my responsiveness was helpe
  - My mentor, Brian Macharia, for his expertise, help and professionalism
  - Kevin Powell for his helpful and insightful videos on YouTube
 
-### Disclaimer
+# Disclaimer
 The content of this website is for educational purposes only.
