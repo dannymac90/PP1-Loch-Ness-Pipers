@@ -7,7 +7,7 @@ Welcome to my first Code Institute project, The Loch Ness Pipers. The website ha
 
 A live demo of the website can be found [here](https://dannymac90.github.io/PP1-Loch-Ness-Pipers/)
 
-(((((((((((photo)))))))))
+![Photo of landing page on multiple devices](assets/images/Responsive%20Showcase.png)
 
 # User Experience (UX)
 
@@ -41,7 +41,45 @@ My goal in the design was to make it as easy as possible to access information o
 
 # Features
 ### Existing Features
-This is where existing will go
+**Navigation Bar**
+ - The navigation bar remains on the top of every page throughout the site. This ensures the user can easily navigate to any page they desire which in turn creates a good user experience
+ - Through CSS, the menu will underline the current page using a blue bottom border. This lets the user easily identify which page they are currently on, making the website easier to navigate and more enjoyable.
+ - To also create a further enjoyable user experience, a red colour bottom border will appear under links that hovered over
+ - There is an embedded CTA button within the Nav menu to let the user quickly and easily be able to make further enquiries
+ - For the responsive design, the nav bar menu will collapse into a hamburger menu to ensure the user has as much screen real-estate as possible to view the page content without having a chunky menu bar taking up a wide area of the screen
+ 
+**Landing Page**
+ - This introduces the user to The Loch Ness Pipers. 
+ - It features a hero image of a bagpiper which will quickly let the user identify the purpose of the website along with the text overlay on the hero image stating the purpose of the business
+
+**Footer**
+ - Remains at the bottom of every page for consistency and a better user experience 
+ - Contains social icons which have embedded links to those external websites. When the business starts trading and has these accounts set up, these links will lead directly to the companies social media pages
+ 
+**About Page**
+ - This second page details information about the business as a whole, but also show cases each individual piper
+ - Each piper has a photo plus a short bio about them, helping the potential customer choose the piper best suited to their needs for their event
+ - There is a CTA button below the pipers table that is centred and easily identifiable to the user so they can easily navigate to the contact page to make initial contact with the business. 
+
+**Prices Page**
+ - One of the main highlights from the user stories is having prices displayed on the site so they can easily and quickly establish if the business is within their price range. To enable this, we have implemented a dedicated prices page 
+ - Within the prices page is a table with 3 columns stating the three main different services plus a price starting point. 
+ - Within each column has its own CTA button to take the customer to the contact page to make further enquiries or book their piper. 
+ 
+ **Event Page**
+ - As an event piping business playing at both private and public events, the client requested an event page so potential customers could easily see what events they are playing at and when allowing the customer to go and see them perform and speak to them face to face
+ - The event page contains a CTA button under the table to easily take the potential customer to the contact page to make further enquiries
+ 
+ **Contact Page**
+ - The websites primary goal is to drive customers to the contact page allowing them to make their first initial contact with the business
+ - It was therefor essential to provide a clear and easily to follow fillable form as well as displaying the contact information of the business should the potential customer prefer to contact them in another way such as phone
+ - It also contains an embedded Google map of where the business is located should the customer wish to attend the establishment to enquire more
+ - With all 3 sections, this gives the customer plenty of options of how they wish to contact the business
+
+**Contact-thankyou Page**
+ - This is a submission confirmation page that is not visible in the navigation bar, but only appears following the potential customer completing the contact us form.
+ - The page confirms successful submission and informs them the business aims to respond to all enquiries within 24 hours. 
+ - The page then automatically redirects the user to the landing page after 10 seconds
 
 ### Features to implement in the future
 **Testimony Page**
@@ -64,21 +102,21 @@ This is where existing will go
 Testing was conducted through W3C Nu HTML Checker
 **The Results:** 
 There was no errors or warnings found
-((((photo)))
+![Photo of HTML validation result](assets/images/html-test.png)
 
 ### CSS Validator
 
 Testing was conducted through W3C CSS Validator
 **The Results:** 
 There was no errors found
-((((photo)))
+![Photo of CSS validation result](assets/images/css-test.png)
 
 ### Lighthouse Report
 
  - To test the Accessibility of the website, a Lighthouse test was conducted through Chrome DevTools
  - This confirmed an Accessibility score of 100%
  - Future site development will address the 99% performance score 
- (((((photo))))
+ ![Photo of lighthouse report](assets/images/lighthouse-report.png)
  
 ### Browser Compatibility Test
  Compatibility tests have been conducted as performed as expected on the following browsers:
