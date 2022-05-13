@@ -141,6 +141,9 @@ Responsiveness tests have been conducted as performed as expected on the followi
  |Contact email| Enter text instead of email address| Warning popup saying to enter valid email| Pass
  |Thank you page| Submit filled form| Thank you page loads| Pass
 
+ ## Bugs
+ * No known bugs
+
  # Credits
 **Content**
 The text for the website was created by Danny MacLeod and proof-read/edited by Rebecca Haughey.
