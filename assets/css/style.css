@@ -568,16 +568,6 @@ img {
     .events-container-1 {
         padding:1.25rem 3.125rem;
         max-width: 80%;
-        background-color: rgb(36, 37, 123, 0.6);
-        box-sizing: border-box;
-        justify-content: center;
-        text-align: center;
-        color: white;
-    }
-
-    #events-inner-container {
-        display: flex;
-        gap: 3.125rem;
     }
 
     .events-cta {
@@ -597,25 +587,17 @@ img {
 
     #events-inner-container {
         width: 80%;
-        margin: 0 auto;
-        padding-bottom: 3.125rem;
         justify-content: center;
     }
 
     .events-container-1 {
         padding: 1.25rem 0.313rem ;
         max-width: 100%;
-        background-color: rgb(36, 37, 123, 0.6);
-        box-sizing: border-box;
-        justify-content: center;
-        text-align: center;
-        color: white;
     }
 
     #events-inner-container {
-        display: flex;
+
         flex-direction: column;
-        gap: 3.125rem;
     }
 
     .events-cta {
