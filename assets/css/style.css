@@ -63,7 +63,7 @@ button:hover {
 }
 
 /********************************************* Nav Header *****/
-/* Setting header with nav elements */
+/* Credit to Traversy Media Youtube channel for helping with the hamburger menu code that I then adjusted */
 header {
     display: block;
     position: fixed;
@@ -150,6 +150,7 @@ nav a:hover {
 }
 
 /* NAV HEADER Responsive Design tabelt / mobile */
+/* Credit to Kevin Powell Youtube Channel for responsive design */
 @media screen and (max-width: 1200px) {
     header {
         height: 5rem;
