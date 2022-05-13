@@ -97,28 +97,28 @@ My goal in the design was to make it as easy as possible to access information o
  - Google Fonts
  
 # Testing
-### HTML Validator
+## HTML Validator
 
 Testing was conducted through W3C Nu HTML Checker
 **The Results:** 
 There was no errors or warnings found
 ![Photo of HTML validation result](assets/images/html-test.png)
 
-### CSS Validator
+## CSS Validator
 
 Testing was conducted through W3C CSS Validator
 **The Results:** 
 There was no errors found
 ![Photo of CSS validation result](assets/images/css-test.png)
 
-### Lighthouse Report
+## Lighthouse Report
 
  - To test the Accessibility of the website, a Lighthouse test was conducted through Chrome DevTools
  - This confirmed an Accessibility score of 100%
  - Future site development will address the 99% performance score 
  ![Photo of lighthouse report](assets/images/lighthouse-report.png)
  
-### Browser Compatibility Test
+## Browser Compatibility Test
  Compatibility tests have been conducted as performed as expected on the following browsers:
  
  - Google Chrome
@@ -126,12 +126,20 @@ There was no errors found
  - Microsoft Edge
  - Mozilla Firefox
  
- ### Responsiveness Test
+ ## Responsiveness Test
 Responsiveness tests have been conducted as performed as expected on the following screen sizes using Chrome DevTools:
  - iPhone SE 375 x 667px
  - ipad 768 x 1024px
  - Macbook 2560 x 1600px
  - Lenovo Windows Laptop 1920 x 1080
+
+ ## General Testing
+ |Test Label| Test Action| Expected Outcome| Test outcome|
+ |:---------|:-----------|:----------------|:------------|
+ |Home Page | Click on home nav link| Home page loads| Pass|
+ |CTA| Upon click, button takes you to Contact page| Navigated to Contact Page | Pass
+ |Contact email| Enter text instead of email address| Warning popup saying to enter valid email| Pass
+ |Thank you page| Submit filled form| Thank you page loads| Pass
 
  # Credits
 **Content**
