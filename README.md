@@ -40,7 +40,7 @@ A live demo of the website can be found [here](https://dannymac90.github.io/PP1-
 My goal in the design was to make it as easy as possible to access information on the website while striving for a simple and user-friendly design.
 
 # Features
-## Existing Features
+### Existing Features
 **Navigation Bar**
  - The navigation bar remains on the top of every page throughout the site. This ensures the user can easily navigate to any page they desire which in turn creates a good user experience
  - Through CSS, the menu will underline the current page using a blue bottom border. This lets the user easily identify which page they are currently on, making the website easier to navigate and more enjoyable.
