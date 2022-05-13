@@ -546,6 +546,7 @@ img {
 .events-cta>h3 {
     color: #23247A;
     text-transform: none;
+    text-align: center;
 }
 
 /***************** Events Responsive Design  */
