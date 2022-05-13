@@ -94,3 +94,23 @@ Responsiveness tests have been conducted as performed as expected on the followi
  - ipad 768 x 1024px
  - Macbook 2560 x 1600px
  - Lenovo Windows Laptop 1920 x 1080
+
+ # Credits
+**Content**
+The text for the website was created by Danny MacLeod and proof-read/edited by Rebecca Haughey.
+
+**Media**
+The photos used throughout the site has been sourced from Adobe Stock Images
+
+**Code**
+CSS code for the hamburger menu was taken and then edited from Traversy Media Youtube channel [https://www.youtube.com/watch?v=DZg6UfS5zYg](https://www.youtube.com/watch?v=DZg6UfS5zYg)
+
+Assistance with responsiveness and sorting bugs with my responsiveness was helped from Kevin Powell Youtube video [https://www.youtube.com/watch?v=bn-DQCifeQQ&t=2087s](https://www.youtube.com/watch?v=bn-DQCifeQQ&t=2087s)
+
+**Acknowledgements** 
+ - I received inspiration for this project from my own experience as an event piper
+ - My mentor, Brian Macharia, for his expertise, help and professionalism
+ - Kevin Powell for his helpful and insightful videos on YouTube
+
+### Disclaimer
+The content of this website is for educational purposes only.
